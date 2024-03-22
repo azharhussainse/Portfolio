@@ -1,0 +1,49 @@
+<!--  Blog Start  -->
+<section id="blog-single" class="section blog-single active">
+  <div class="display-table">
+    <div class="display-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 blog">
+            <div class="rounded">
+              <div class="text-md-left">
+                <h1 class="mb-4 h4">{{post.title}}</h1>
+                <div class="entry-meta mb-4">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a class="base-color" href="#"><i class="fa fa-calendar"></i>{{post.date}}</a>
+                    </li>
+                    <!-- <li class="list-inline-item">
+                      <a class="base-color" href="blog.html" title="Posts by admin" rel="author"><i
+                          class="fa fa-user"></i>admin</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="base-color" href="blog.html" rel="category tag"><i class="fa fa-folder-open"></i>Logo
+                        Design</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a class="base-color" href="blog.html"><i class="fa fa-comments"></i>No Comments.</a>
+                    </li> -->
+                  </ul>
+                </div>
+                <div class="entry-image image-border mb-4">
+                  <img src="{{post.image}}" alt="">
+                </div>
+                <div [innerHTML]="post.detail"></div>
+                <!-- <nav id="nav-single" class="mt-4">
+                  <span class="nav-previous button-border">
+                    <a class="pill-button" href="blog-single.html" rel="prev">Previous Post</a>
+                  </span>
+                  <span class="nav-next button-border float-right">
+                    <a class="pill-button" href="blog-single.html" rel="next">Next Post</a>
+                  </span>
+                </nav> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--   Blog End   -->

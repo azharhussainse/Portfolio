@@ -1,0 +1,6 @@
+<app-sidebar></app-sidebar>
+<main id="main" [@slideInAnimation]="o.isActivated ? o.activatedRoute : '' ">
+  <!-- <app-hero></app-hero> -->
+  <!-- <app-aboutme></app-aboutme> -->
+  <router-outlet #o="outlet"></router-outlet>
+</main>

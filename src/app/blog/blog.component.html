@@ -1,0 +1,51 @@
+<!--  Blog Start  -->
+<section id="blog" class="blog active">
+  <div class="display-table">
+    <div class="display-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center title">
+              <h2 class="text-dark">News <span class="base-color">Post</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!--  Item 01 -->
+          <div class="col-lg-4" *ngFor="let post of posts">
+            <div class="blog-item box-border">
+              <div class="blog-image">
+                <div class="blog-intro">
+                  <img src="{{post.image}}" alt="/">
+                </div>
+              </div>
+              <div class="blog-content">
+                <ul class="list-inline mt-4">
+                  <li class="list-inline-item">
+                    <i class="lni-calendar base-color"></i>
+                    <span class="text-muted">{{post.date}} </span>
+                  </li>
+                </ul>
+                <h5 class="mb-3"><a class="text-dark" [routerLink]="['/post',post.slug]"> {{post.title}}</a></h5>
+                <p>{{post.excerpt}}</p>
+                <div class="blog-link">
+                  <a class="base-color" [routerLink]="['/post',post.slug]">Read More...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="button-border">
+              <!-- <a href="blog.html" class="pill-button">View More</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--   Blog End   -->

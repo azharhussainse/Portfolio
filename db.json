@@ -1,0 +1,495 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "image": "https://placehold.co/720x480",
+      "date": "June 02, 2023",
+      "author": "Haider Ali",
+      "category": "Laravel",
+      "title": "Be Your Best Version",
+      "excerpt": "These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.",
+      "detail": "<p>These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p><div class='px-md-5 px-3 py-4 quotation'><i class='base-color lni-quotation size-md'></i><h6 class='base-color font-italic mb-0'>We Love Buna, lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula felis euismod semper.</h6></div><p class='my-3'>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p><ul class='mt-4 checkmark-list mb-0'><li class='mb-2'><span>The purpose of lorem ipsum is to create</span></li><li class='mb-2'><span>In particular, the garbled words of lorem ipsum</span></li><li class=''><span>occasionally circumstances occur in which toil</span></li></ul><p class='mt-3 mb-0'>These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>"
+    },
+    {
+      "id": 2,
+      "image": "https://placehold.co/720x480",
+      "date": "June 08, 2020",
+      "author": "Haider Ali",
+      "category": "Laravel",
+      "title": "5 Tips In UI/UX Web Design",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.",
+      "detail": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>`"
+    },
+    {
+      "id": 3,
+      "image": "https://placehold.co/720x480",
+      "date": "June 12, 2020",
+      "author": "Haider Ali",
+      "category": "Laravel",
+      "title": "Write Your Dreams",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.",
+      "detail": "`Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>`"
+    }
+  ],
+  "portfolios": [
+    {
+      "id": 1,
+      "title": "Apple Montessori Schools",
+      "images": ["assets/img/applemont.jpg"],
+      "category": "react",
+      "description":"A Lifetime of Happiness and Success Starts Here. For over 50 years, families have trusted in Apple Montessori’s mission to educate, enrich and inspire children to reach their fullest potential as kind, independent, curious and happy individuals.",
+      "technologies": ["ReactJs","NextJs","NodeJs","MongoDB"]
+    },
+    {
+      "id": 2,
+      "title": "BBMA Academy",
+      "images": [
+        "assets/img/bbma.jpg"
+      ],
+      "category": "wordpress",
+      "description": "At Big Blue Marble Academy, we understand what developing minds need to be successful in preschool and in life. Research shows that the first five years of a child’s life are transformative for growing children’s minds and developing their social-emotional skills. Whether you’re looking for early care, daycare, preschool, or after-school care, we’ve designed our programs around what your child needs for their age and stage of development.",
+      "technologies": [
+        "WordPress",
+        "jQuery",
+        "Javascript",
+        "ThirdParty Api's",
+        "MySQL",
+        "Bootstrap"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Blessers",
+      "images": [
+        "assets/img/blessers.jpg"
+      ],
+      "category": "laravel",
+      "description": "<h4>What is Blesser's Love?<h4> Blesser's Love connects travelers with locals to experience the city or country through the eyes of locals.",
+      "technologies": [
+        "Laravel",
+        "jQuery",
+        "Javascript",
+        "MySQL",
+        "Bootstrap",
+        "PayPal",
+        "PayFast",
+        "Stripe"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Restaurant Chairs",
+      "images": [
+        "assets/img/resturant-chairs.jpg"
+      ],
+      "category": "wordpress",
+      "description": "We specialize in restaurant furniture supply and have been proudly designing and creating competitively-priced, custom-made wood chairs and stools, and metal chairs and stools. We also provide the high-quality decorative and ornate cast-iron table bases. Since 1921, we have been manufacturing restaurant seating for all commercial and hospitality settings, including bars, lounges, hotels, cafeterias, schools, medical offices, and country clubs.",
+      "technologies": [
+        "WordPress",
+        "jQuery",
+        "Javascript",
+        "MySQL",
+        "Bootstrap",
+        "PayPal",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "1stMovers",
+      "images": [
+        "assets/img/1stmovers.jpg"
+      ],
+      "category": "wordpress",
+      "description": "First Movers Ltd is an Edinburgh-based removals firm specializing in secure and speedy removals. We work to provide you with peace of mind - the knowledge that your belongings are looked after by professionals.",
+      "technologies": [
+        "WordPress",
+        "jQuery",
+        "Javascript",
+        "MySQL",
+        "Bootstrap",
+        "Customized Admin Panel"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "ABM Readings",
+      "images": [
+        "assets/img/abmreadings.jpg"
+      ],
+      "category": "laravel",
+      "description": "Traditionally a Masjid was built at the centre of the community used as a means of spiritual guidance but also focusing on the educational and social needs of the community. We would like to revive the tradition of what a Masjid once represented. We believe the Masjid should be the hub of the community offering a variety of services for all of the Reading community.",
+      "technologies": [
+        "Laravel",
+        "jQuery",
+        "Javascript",
+        "MySQL",
+        "Bootstrap",
+        "PayPal"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Friends of Wild Life Santuary",
+      "images": [
+        "assets/img/frws.jpg"
+      ],
+      "category": "laravel",
+      "description": "The Edith G. Read Wildlife Sanctuary is a 179-acre wildlife sanctuary adjacent to Rye Playland, in Rye, NY. The sanctuary features a shoreline on Long Island Sound, Manursing Lake, salt-marsh wetland, trails through a deciduous forest, a bamboo grove, and fields of native grasses and wildflowers. The National Audubon Society has acknowledged the sanctuary as an Important Bird Area. The sanctuary’s nature center building has nature exhibits and a bird viewing window, and a setting for educational programs. Learn more about the history of the Sanctuary",
+      "technologies": [
+        "Laravel",
+        "WordPress",
+        "jQuery",
+        "Javascript",
+        "MySQL",
+        "Bootstrap",
+        "PayPal"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "AllZone Technologies",
+      "images": [
+        "assets/img/allzone.jpg"
+      ],
+      "category": "wordpress",
+      "description": "AllZone Tech is a great platform that assembles developers, engineers and other technical talent to help businesses, startups, and enterprises for their software development needs.",
+      "technologies": [
+        "WordPress",
+        "jQuery",
+        "Javascript",
+        "MySQL",
+        "Bootstrap"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "SchoolPlus",
+      "images": [
+        "assets/img/schoolplus.jpg"
+      ],
+      "category": "wordpress",
+      "description": "SchoolsPlus is building an extensive database of schools in Pakistan. Our goal is to make all this information, in a user friendly manner, available for parents and students to help them find the best school in their area.",
+      "technologies": [
+        "WordPress",
+        "jQuery",
+        "Javascript",
+        "MySQL",
+        "Bootstrap",
+        "Google maps",
+        "Radius Search"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Big As Baloons",
+      "images": [
+        "assets/img/bab.jpg"
+      ],
+      "category": "wordpress",
+      "description": "Leading bespoke and biodegradable balloon company, delivering right to your front door. Big As Balloons in Auckland, NZ is a branch of Big Ass Balloons, which was established in 2015 by Katie Nolet and Kathy Nguyen.",
+      "technologies": [
+        "WordPress",
+        "jQuery",
+        "Javascript",
+        "MySQL",
+        "Bootstrap",
+        "Woocommerce"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Sarver Orthodontics",
+      "images": [
+        "assets/img/sarverortho.jpg"
+      ],
+      "category": "react",
+      "description": "There are many elements that have to come together to create a Sarver Smile. That’s where the team comes in. Some are dedicated to scheduling, logistics and making sure we’re as welcoming as we can be, others to the clinical assisting that happens alongside Dr. Sarver. Still others spend their time behind the scenes, customizing orthodontic appliances and working in our lab.",
+      "technologies": [
+        "ReactJs",
+        "NextJs",
+        "NodeJs",
+        "Javascript",
+        "MySQL",
+        "Bootstrap"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "VintageSage",
+      "images": [
+        "assets/img/vintagesage.jpg"
+      ],
+      "category": "wordpress woocommerce",
+      "description": "At Vintagesage, we specialize in high-quality furniture and home decor that combines timeless style and exceptional craftsmanship. We are passionate about creating beautiful and functional spaces that reflect your unique taste and personality. Whether you’re looking for a marble dining table, dining chairs, coffee tables, mirrors, or beds, we have a wide selection of products that will meet your needs",
+      "technologies": [
+        "Woocommerce",
+        "WordPress",
+        "Javascript",
+        "jQuery",
+        "MySQL",
+        "PayPal",
+        "Stripe",
+        "Bootstrap"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Harley Street Emporium",
+      "images": [
+        "assets/img/harley.jpg"
+      ],
+      "category": "wordpress woocommerce",
+      "description": "Harley Street Emporium’s mission is to provide you with editorially independent information so you can make the informed decisions about your menopause journey and skincare treatments, procedures or products.",
+      "technologies": [
+        "Woocommerce",
+        "WordPress",
+        "Javascript",
+        "jQuery",
+        "MySQL",
+        "PayPal",
+        "Stripe",
+        "Bootstrap"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Kenton Bruce MD",
+      "images": [
+        "assets/img/kentonbruce.jpg"
+      ],
+      "category": "wordpress",
+      "description": "Dr. Bruice is a member of the North American Menopause Society, the Colorado Medical Society, and the Denver Medical Society. He is an international speaker on the benefits and safety of bioidentical hormones.",
+      "technologies": [
+        "WordPress",
+        "Divi",
+        "Javascript",
+        "jQuery",
+        "MySQL"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Mad Talks",
+      "images": [
+        "assets/img/madtalks.jpg"
+      ],
+      "category": "wordpress",
+      "description": "The core purpose and mission of MAD Talks is to “MAKE A DIFFERENCE. We want to Make A Difference and be MAD in everything we do, in business and in life and serve humanity. This is our “Massive Transformative Purpose” (MTP). This is what we are all truly about.",
+      "technologies": [
+        "WordPress",
+        "Elementor",
+        "Javascript",
+        "jQuery",
+        "MySQL"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Xponential Talks",
+      "images": [
+        "assets/img/xptalks.jpg"
+      ],
+      "category": "wordpress",
+      "description": "XPONENTIAL TALKS IS THE “VOICE OF THE FUTURE. It is a unique integrated video/audio podcast platform exploring, capturing & sharing stories of the Future. We are the home for anything related to the Future We focus on sharing stories of some greatest players & companies",
+      "technologies": [
+        "WordPress",
+        "Elementor",
+        "Javascript",
+        "jQuery",
+        "MySQL"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Tech Hard",
+      "images": [
+        "assets/img/techhard.jpg"
+      ],
+      "category": "wordpress",
+      "description": "Tech Hard is an ISO - 9001: 2015 certified company that is based in Jebel Ali Free Zone, Dubai, UAE, with over two decades of experience. We are well versed in the supply of wide range of high-standard products and equipment with international approval and certifications. Our unique supply strength has enabled us to become a trusted partner of energy sector around the world, who count on our unmatched expertise to deliver innovative and reliable solutions in challenging conditions. We are efficient in our management of cross-disciplinary operations, and with our commitment to excellence. We work with our partners to deliver a cost-effective project solution to clients that would boost their business outcome.",
+      "technologies": [
+        "WordPress",
+        "Elementor",
+        "Javascript",
+        "jQuery",
+        "MySQL"
+      ]
+    }
+  ],
+  "profile": [{
+      "name": "Haider Ali",
+      "titles": [
+        "Laravel Developer.",
+        "WordPress Developer.",
+        "PHP Web Developer.",
+        "Full Stack Developer."
+      ],
+      "summary": "Experienced Senior Software Engineer with a decade in PHP, specializing in MVC architecture. Proficient in diverse industries, adept in Agile methodologies. Committed to advancing software architecture and passionate about natural language processing.",
+      "socialLinks": {
+        "github": "https://github.com/haider8278/",
+        "linkedin": "https://www.linkedin.com/in/haider8278/"
+      },
+      "title": "Full Stack Developer",
+      "aboutme": "My name is Haider, and I am a Laravel developer with 10 years of experience. I have a passion for building scalable and high-performance web applications using the Laravel framework. I have a strong background in PHP, HTML, CSS, and JavaScript, and I am well- versed in various Laravel features such as routing, middleware, blade templates, and eloquent ORM.I have also worked on various projects that involved integrating third - party services and APIs, and I have a good understanding of security and performance best practices.",
+      "birthday": "02 Nov 1989",
+      "age": "33",
+      "phone": "+923343458113",
+      "email": "haider8278@gmail.com",
+      "address": "Lahore, Punjab, Pakistan",
+      "Freelance": "Available",
+      "resume": "./assets/cv/Haider-Ali-PHP.docx",
+      "image": "./assets/img/me.jpg",
+      "services": [
+        {
+          "title": "Custom Software Development",
+          "icon": "lni-brush-alt",
+          "detail": "Tailor-made software solutions to address specific business needs, leveraging your expertise in PHP and other relevant technologies."
+        },
+        {
+          "title": "Web Application Development",
+          "icon": "lni-check-mark-circle",
+          "detail": "Craft dynamic web applications using PHP, Laravel, and other frameworks, ensuring user-friendly and efficient interfaces."
+        },
+        {
+          "title": "Database Design and Optimization",
+          "icon": "lni-heart",
+          "detail": "Design and fine-tune database systems for optimal data storage, retrieval, and performance, enhancing overall application efficiency."
+        },
+        {
+          "title": "Software Architecture Consulting",
+          "icon": "lni-mobile",
+          "detail": "Provide strategic guidance in designing scalable and robust software architectures, optimizing long-term functionality."
+        },
+        {
+          "title": "API Development and Integration",
+          "icon": "lni-world",
+          "detail": "Develop APIs to facilitate seamless communication and data exchange between different software systems, improving interoperability."
+        },
+        {
+          "title": "Technical Support and Maintenance",
+          "icon": "lni-cup",
+          "detail": "Offer ongoing support and maintenance services, ensuring the reliability and security of software applications, thus promoting long-term success."
+        }
+      ],
+      "testimonials": [
+        {
+          "image": "/assets/img/tyga.jpeg",
+          "text": "Haider is a highly flexible worker who consistently performs well in executing tasks. He demonstrates a keen awareness of requests or problem areas and is innovative in his approach to resolving challenges. Additionally, he does not hesitate to reach out if he has questions or problems, and goes above and beyond when responding to quality assurance (QA) tickets and documentation.. Overall, Haider is a trustworthy and dependable team member.",
+          "title": "Tyga McHenry",
+          "designation": "Senior web developer with leadership experience at SelectQuote"
+        },
+        {
+          "image": "/assets/img/anum.jpeg",
+          "text": "Haider is basically a very sensible, On spot decision maker as far as i know him from my bachelor. He has the skill to rectify the errors and the point out the actual problem. Apart from studies, he is a smart guy for repairing and maintaining computer hardware and devices. I am very thankful to him as he helped me whenever i called him. indeed! Hiring such a person like Haider is beneficial for nay growing company.",
+          "title": "Anaum Hamid",
+          "designation": "Research Student in AI, ML and NLP | iOS developer | Academician"
+        },
+        {
+          "image": "/assets/img/zahid.jpeg",
+          "text": "Very skilled and highly recommended",
+          "title": "MUHAMMAD ZAHID",
+          "designation": "Full-Stack PHP Developer"
+        },
+        {
+          "image": "/assets/img/sajid.jpeg",
+          "text": "Haider is good web developer he had command over php and word press.",
+          "title": "Sajid Ali",
+          "designation": "Sr. Software Architect | .Net | Javascript | Typescript | React | Angular"
+        }
+      ],
+      "education": [
+        {
+          "title": "Bechelors In Computer Science",
+          "year": "2006-2010",
+          "org": "University of Karachi"
+        },
+        {
+          "title": "WordPress PHP Certification",
+          "year": "2019",
+          "org": "SkillValue by Pentalog"
+        },
+        {
+          "title": "PHP Skill Assesment by Linkedin",
+          "year": "2023",
+          "org": "Linkedin"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Development Team Lead",
+          "year": "2013-2021",
+          "org": "TCAW Global"
+        },
+        {
+          "title": "Senior Software Engineer(PHP)",
+          "year": "2021 - to-date",
+          "org": "AllZone Technologies"
+        }
+      ],
+      "skills": [
+        {
+          "title": "PHP",
+          "expert": "100"
+        },
+        {
+          "title": "Laravel",
+          "expert": "100"
+        },
+        {
+          "title": "WordPress",
+          "expert": "100"
+        },
+        {
+          "title": "CodeIgniter",
+          "expert": "90"
+        },
+        {
+          "title": "MySQL",
+          "expert": "90"
+        },
+        {
+          "title": "JavaScript",
+          "expert": "70"
+        },
+        {
+          "title": "jQuery",
+          "expert": "90"
+        },
+        {
+          "title": "ReactJs",
+          "expert": "50"
+        },
+        {
+          "title": "NodeJs",
+          "expert": "50"
+        },
+        {
+          "title": "HTML5",
+          "expert": "60"
+        },
+        {
+          "title": "CSS",
+          "expert": "60"
+        }
+      ],
+      "languages": [
+        {
+          "title": "Egnlish",
+          "expert": "Conversation",
+          "stars": 3
+        },
+        {
+          "title": "Urdu",
+          "expert": "Native",
+          "stars": 5
+        },
+        {
+          "title": "Punjabi",
+          "expert": "Native",
+          "stars": 5
+        }
+      ]
+    }
+  ]
+}

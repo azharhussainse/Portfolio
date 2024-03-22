@@ -1,0 +1,114 @@
+<!-- Contact Start -->
+<section id="contact" class="contact active">
+  <div class="display-table">
+    <div class="display-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center title">
+              <h2 class="text-dark">Get <span class="base-color">in Touch</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row contact-info">
+          <div class="col-lg-4 mt-5">
+            <div class="text-center">
+              <div class="base-color">
+                <i class="lni-phone-handset size-md"></i>
+              </div>
+              <div class="mt-3">
+                <h5 class="text-dark mb-0">Call Us On</h5>
+                <small class="text-muted">{{data.phone}}</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5">
+            <div class="text-center">
+              <div class="base-color">
+                <i class="lni-map-marker size-md"></i>
+              </div>
+              <div class="mt-3">
+                <h5 class="text-dark mb-0 contact_detail-title">Visit Office</h5>
+                <small class="text-muted">{{data.address}}</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5">
+            <div class="text-center">
+              <div class="base-color">
+                <i class="lni-pointer size-md"></i>
+              </div>
+              <div class="mt-3">
+                <h5 class="text-dark mb-0">Email Us At</h5>
+                <small class="text-muted">{{data.email}}</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 mt-5 contact-form">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+              <div class="row">
+                <div class="col-lg-6 form-item">
+                  <div class="form-group">
+                    <input type="text" formControlName="fullname" class="form-control" placeholder="Your Name"
+                      [ngClass]="{ 'is-invalid': submitted && f['fullname'].errors }" />
+                      <div *ngIf="submitted && f['fullname'].errors" class="invalid-feedback">
+                        <div *ngIf="f['fullname'].errors['required']">Fullname is required</div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 form-item">
+                  <div class="form-group">
+                    <input type="text" formControlName="email" class="form-control" placeholder="Your Email"
+                      [ngClass]="{ 'is-invalid': submitted && f['email'].errors }" />
+                    <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+                      <div *ngIf="f['email'].errors['required']">Email is required</div>
+                      <div *ngIf="f['email'].errors['email']">Email is invalid</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 form-item">
+                  <div class="form-group">
+                    <input name="subject" id="subject" type="text" class="form-control" placeholder="Your Subject*" formControlName="subject" [ngClass]="{ 'is-invalid': submitted && f['subject'].errors }">
+                    <div *ngIf="submitted && f['subject'].errors" class="invalid-feedback">
+                      <div *ngIf="f['subject'].errors['required']">Fullname is required</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 form-item">
+                  <div class="form-group">
+                    <textarea name="comments" id="comments" rows="4" class="form-control" formControlName="comments" [ngClass]="{ 'is-invalid': submitted && f['comments'].errors }"
+                      placeholder="Your message..."></textarea>
+                      <div *ngIf="submitted && f['comments'].errors" class="invalid-feedback">
+                        <div *ngIf="f['comments'].errors['required']">Fullname is required</div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 mt-4 text-left">
+                  <div class="button-border">
+                    <button class="pill-button" id="submit-btn" >Send
+                      Message</button>
+                  </div>
+                  <div id="message" class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+                    data-delay="4000">
+                    <div class="toast-body d-inline-block"></div>
+                    <button type="button" class="pr-3 close" data-dismiss="toast" aria-label="Close">
+                      <span aria-hidden="true" class="lni-close size-xs "></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row copy-right">
+          <div class="col-12 text-center">
+            <p>Copyright © {{getYear()}}.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--  Contact End  -->

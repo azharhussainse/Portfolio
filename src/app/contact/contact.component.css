@@ -1,0 +1,12 @@
+.form-group{
+  position: relative;
+}
+.invalid-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  padding: 10px 20px;
+  width: 200px;
+
+}

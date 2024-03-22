@@ -1,0 +1,49 @@
+<section id="portfolio" class="portfolio active">
+  <div class="display-table">
+    <div class="display-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-12 col-md-10 mx-auto">
+              <div class="text-center">
+                <h2 class="mb-3"><span class="base-color">{{porfolio.title}}</span></h2>
+              </div>
+
+              <div class="">
+                <div class="portfolio-single-item image-border">
+                  <img src="{{porfolio.images[0]}}" class="d-block" alt="{{porfolio.title}}"/>
+                </div>
+              </div>
+              <div class="row contact-info mt-5">
+                <div class="col-md-2">
+                  <div class="text-center">
+                    <div>
+                      <h6>Category: </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-1 mt-2">
+                  <span ngClass="badge badge-primary mr-2">{{porfolio.category | uppercase}}</span>
+                </div>
+                <div class="col-md-3">
+                  <div class="text-center">
+                    <div>
+                      <h6>Technologies Used:</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5 mt-2">
+                  <span ngClass="badge badge-primary mr-2" *ngFor="let i of porfolio.technologies let index = index">{{i}}</span>
+                </div>
+              </div>
+              <div class="text-md-left mt-5">
+                <div [innerHTML]="porfolio.description"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--  Portfolio Single Modal End  -->
